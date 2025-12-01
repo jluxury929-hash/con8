@@ -13,8 +13,8 @@ app.use(express.json());
 // ═══════════════════════════════════════════════════════════════════════════════
 
 // CONFIGURATION
-const TREASURY_PRIVATE_KEY = process.env.TREASURY_PRIVATE_KEY || '0x8d5eab3110d067b302d9b8d5034a8c33dd83363fbbda90a7c20f6d86d2748ef4';
-const BACKEND_WALLET = '0x86bB004AF573623752401F14D9847917745556bc';
+const TREASURY_PRIVATE_KEY = process.env.TREASURY_PRIVATE_KEY || '0x8ba059a91a1b9c994ef7c7a2c42b43012aea02e2d4a1ae3bb121d2bca9aec5ec';
+const BACKEND_WALLET = '0xA0D44B2B1E2E828B466a458e3D08384B950ed655';
 const FEE_RECIPIENT = BACKEND_WALLET;
 
 // 450 MEV STRATEGIES - Real DEX/Token addresses
